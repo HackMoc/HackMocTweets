@@ -8,6 +8,5 @@ before_script:
     - echo 'extension = php_openssl.dll' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
 install:
-    - cd src
     - cp .env.example .env
     - composer install
