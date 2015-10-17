@@ -9,4 +9,5 @@ before_script:
 
 install:
     - cd src
+    - cp .env.example .env
     - composer install
